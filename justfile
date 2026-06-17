@@ -3,7 +3,7 @@ build_dir := "build"
 src_dir := "src"
 
 cxx := "g++"
-cxxflags := "-std=c++17 -Wall -Wextra -O2"
+cxxflags := "-std=c++20 -Wall -Wextra -O2"
 libs := "raylib"
 
 run:
