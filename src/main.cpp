@@ -1,6 +1,11 @@
-#include <cstdio>
+#include "App.h"
 
 int main() {
-  printf("hello world");
+  App app;
+
+  app.init();
+  app.run();
+  app.destroy();
+
   return 0;
 }
