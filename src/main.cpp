@@ -3,9 +3,9 @@
 int main() {
   App app;
 
-  app.Init();
-  app.Run();
-  app.Destroy();
+  app.init();
+  app.run();
+  app.destroy();
 
   return 0;
 }

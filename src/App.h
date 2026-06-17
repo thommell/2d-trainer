@@ -1,8 +1,10 @@
+#pragma once
+
 class App {
   public:
-    int Init();
-    int Run();
-    int Destroy();
+    int init();
+    int run();
+    int destroy();
 
   private:
     int Update();
