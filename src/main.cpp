@@ -1,6 +1,11 @@
-#include <cstdio>
+#include "App.h"
 
 int main() {
-  printf("hello world");
+  App app;
+
+  app.Init();
+  app.Run();
+  app.Destroy();
+
   return 0;
 }
